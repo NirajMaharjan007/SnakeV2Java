@@ -29,9 +29,10 @@ public class SoundPlayer {
 
     public static Music playMusic(String name, boolean looping) {
         Music music = musics.get(name);
-        music.setLooping(looping);
-        if (!music.isPlaying() && !music.isLooping())
-            music.play();
+        // music.setLooping(looping);
+        // if (!music.isPlaying() && !music.isLooping())
+        music.setLooping(true);
+        music.play();
         return music;
     }
 
