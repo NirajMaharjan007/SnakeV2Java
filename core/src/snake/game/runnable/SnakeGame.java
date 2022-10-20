@@ -62,7 +62,7 @@ public class SnakeGame {
             }
         } else {
             gameOver();
-            if (Gdx.input.isKeyJustPressed(Input.Keys.ANY_KEY))
+            if (Gdx.input.isKeyJustPressed(Input.Keys.SPACE))
                 start();
         }
     }
@@ -89,11 +89,11 @@ public class SnakeGame {
         food.draw(batch);
         snake.render(batch);
 
-        font.setColor(Color.BLACK);
+        font.setColor(Color.WHITE);
 
         if (isGameOver) {
             font.draw(batch, "GAME OVER", (WIDTH - 100) / 2, (HEIGHT + 100) / 2);
-            font.draw(batch, "Press any key to continue", (WIDTH - 250) / 2, (HEIGHT + 50) / 2);
+            font.draw(batch, "Press SPACE key to continue", (WIDTH - 200) / 2, (HEIGHT + 50) / 2);
         }
 
         font.draw(batch, "Score: " + Scorer.getScore(), GameInfo.SCALE / 2,
