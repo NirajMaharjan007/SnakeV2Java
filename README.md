@@ -10,6 +10,6 @@ Snake Game from java using game engine(libGDX)
 ## Requirements
 - Any Java IDE
 - java version 8+
-- gradle
+- gradle (optional)
 
-> Note: Use terminal and type gradle run. 
+> Note: Use terminal and type gradlew run or gradle run. 
