@@ -2,11 +2,6 @@ package snake.game.runnable;
 
 import com.badlogic.gdx.Gdx;
 
-/**
- * Created by: Ian Parcon
- * Date created: Aug 29, 2018
- * Time created: 1:01 PM
- */
 public class GameInfo {
     public static final int SCALE = 32;
     public static final int BOARD_WIDTH = Gdx.graphics.getWidth() / SCALE;

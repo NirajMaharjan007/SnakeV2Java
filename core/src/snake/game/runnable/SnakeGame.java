@@ -38,7 +38,7 @@ public class SnakeGame {
 
     private void init() {
         SoundPlayer.init();
-        SoundPlayer.playMusic(Asset.MEMO_SOUND, false);
+        SoundPlayer.playMusic(Asset.MEMO_SOUND, true);
     }
 
     public void update(float delta) {
@@ -93,8 +93,7 @@ public class SnakeGame {
 
         if (isGameOver) {
             font.draw(batch, "GAME OVER", (WIDTH - 100) / 2, (HEIGHT + 100) / 2);
-            font.draw(batch, "Press any key to continue", (WIDTH - 250) / 2, (HEIGHT +
-                    50) / 2);
+            font.draw(batch, "Press any key to continue", (WIDTH - 250) / 2, (HEIGHT + 50) / 2);
         }
 
         font.draw(batch, "Score: " + Scorer.getScore(), GameInfo.SCALE / 2,

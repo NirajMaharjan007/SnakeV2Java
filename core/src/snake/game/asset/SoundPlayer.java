@@ -31,7 +31,7 @@ public class SoundPlayer {
         Music music = musics.get(name);
         // music.setLooping(looping);
         // if (!music.isPlaying() && !music.isLooping())
-        music.setLooping(true);
+        music.setLooping(looping);
         music.play();
         return music;
     }

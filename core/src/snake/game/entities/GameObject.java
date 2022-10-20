@@ -6,11 +6,6 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
 import snake.game.runnable.GameInfo;
 
-/**
- * Created by: Ian Parcon
- * Date created: Aug 23, 2018
- * Time created: 3:05 PM
- */
 public class GameObject {
 
     protected Sprite sprite;

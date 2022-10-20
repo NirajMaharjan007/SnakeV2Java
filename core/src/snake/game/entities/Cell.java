@@ -6,11 +6,6 @@ import snake.game.Direction;
 
 import static snake.game.runnable.GameInfo.SCALE;
 
-/**
- * Created by: Ian Parcon
- * Date created: Aug 29, 2018
- * Time created: 10:09 AM
- */
 public class Cell extends GameObject {
 
     public Cell(Sprite sprite, float x, float y) {

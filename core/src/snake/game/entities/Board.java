@@ -8,11 +8,6 @@ import com.badlogic.gdx.math.MathUtils;
 import snake.game.asset.Asset;
 import snake.game.runnable.GameInfo;
 
-/**
- * Created by: Ian Parcon
- * Date created: Aug 29, 2018
- * Time created: 10:09 AM
- */
 public class Board {
 
     private Cell[][] cells;
