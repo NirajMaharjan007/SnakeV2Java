@@ -2,10 +2,10 @@
 Snake Game from java using game engine(libGDX)
 
 ## Usage
-- vs code
-- Java
-- Gradle
-- game engine ([`libGDX`](https://libgdx.com/dev/))
+- [VS Code](https://code.visualstudio.com/)
+- [Java](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html) 
+- [Gradle](https://gradle.org/install/) `Optional`
+- [LibGDX](https://libgdx.com/)
 
 ## Requirements
 - java version 8+
